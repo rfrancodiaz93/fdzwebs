@@ -1,0 +1,230 @@
+/*Body Layout*/
+body{
+	font-family: 15px/1.5 Arial, Helvetica, sans-serif;
+	padding: 0;
+	margin: 0;
+	background-color: #e6f3e3; 
+	
+}
+
+/*Global*/
+.container{
+	width: 80%;
+	margin: auto;
+	overflow: hidden;
+}
+
+ul{
+	margin: 0;
+	padding: 0;
+}
+
+.dark{
+	background: #005e6b;
+	padding: 10px;
+	color: #ffffff;
+	border: #66cdaa 3px solid;
+}
+
+
+
+/*header*/
+header{
+	background: #005e6b;
+	color: #ffffff;
+	padding-top: 30px;
+	min-height: 70px;
+	border-bottom: #66cdaa 3px solid;
+}
+
+header a{
+	color: #ffffff;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-size: 16px;
+
+}
+
+header .highlight, header .current a{
+	color: #66cdaa;
+	font-weight: bold;
+}
+
+header li{
+	float: left;
+	display: inline;
+	padding: 35px 20px 0 20px;
+}
+
+header #branding{
+	float: left;
+}
+
+header a:hover{
+	color: #f0f7ef;	
+}
+
+/* showcase */
+#showcase{
+
+	min-height: 400px;
+	background:  url('../imgs/constru004Update2.jpg') no-repeat ;
+	
+	text-align: center;
+	color: #ffffff;
+}
+
+
+
+#showcase h1{
+	padding-top: 60px;
+	font-size: 65px;
+	}
+
+#showcase p{
+	font-size: 30px;
+	font-weight: bold;
+	
+}
+
+#showcase2 {
+	
+	border-top: 5px solid #66cdaa;
+	min-height: 400px;
+	background: url('../imgs/constru006Update.jpg') no-repeat -800px -800px;
+	color: #ffffff;
+	text-align: center;
+	font-size: 25px;
+
+}
+
+#showcase2 p{
+	padding-top: 60px;
+}
+
+/*article*/
+
+article#mainarticle{
+	float: left;
+	width: 65%;
+}
+
+/*sidebar*/
+aside#sidebar{
+	float:right;
+	width: 30%;
+	margin-top: 40px;
+
+}
+
+/*footer*/
+footer{
+	text-align: center;
+	padding: 30px;
+
+
+	color: #ffffff;
+	background-color: #66cdaa;
+	font-size: 20px;
+}
+
+/*
+	services 
+
+*/
+
+ul#services li{
+	list-style: none;
+	padding: 20px;
+	border-bottom: #cccccc solid 1px;
+	margin-bottom: 5px;
+	background: #c9e5c5;
+
+}
+
+/*imgs*/
+#imgs{
+
+	
+
+}
+
+.img{
+	background: #c9e5c5;
+	padding: 20px;
+	margin: 10px;
+	border-bottom: #cccccc solid 1px;
+
+}
+
+section h1{
+	text-align: center;
+	font-size: 27px;
+}
+
+
+@media(max-width: 768px){
+	header #branding,
+	header nav,
+	header nav li,
+	article#maincontainer,
+	article#mainarticle,
+	aside#sidebar
+	{
+		float: none;
+		text-align: center;
+		width: 100%;
+
+	}
+
+	aside#sidebar{
+		margin-bottom: 20px;
+	}
+
+	header nav li{
+		
+		
+		padding: 10px;
+		display: block;
+
+	}
+
+	
+
+
+	header{
+		padding-bottom: 20px;
+	}
+
+	#showcase{
+		background:  url('../imgs/constru004Update2.jpg') no-repeat -400px -100px;
+	}
+
+	#showcase h1{
+		margin-top: 40px;
+		font-size: 40px
+	}
+
+	#showcase p{
+		font-size: 25px;
+	}
+
+	#showcase2{
+		min-height: 200px;
+
+	}
+
+	header li{
+		padding: 15px 20px 0 20px;
+	}
+
+	ul#services h3{
+	text-align: center;
+}
+
+	footer{
+		
+	}
+
+}
+
